@@ -1,5 +1,5 @@
-import base.mainDataTypes
+import base.conditions
 
-fun main(){
-    mainDataTypes()
+fun main() {
+    conditions()
 }
