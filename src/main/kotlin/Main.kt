@@ -1,5 +1,5 @@
-import base.loops
+import base.arrays
 
 fun main() {
-    loops()
+    arrays()
 }
