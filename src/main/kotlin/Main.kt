@@ -1,5 +1,5 @@
-import base.conditions
+import base.loops
 
 fun main() {
-    conditions()
+    loops()
 }
