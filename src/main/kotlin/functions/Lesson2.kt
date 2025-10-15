@@ -18,6 +18,8 @@ fun lesson2() {
     println(newSum(2, 2))
     newSum = ::subtract
     println(newSum(3, 3))
+    val s = ::subtract
+    println(s(24, 34))
 }
 
 fun sum(a: Int, b: Int) = a + b
@@ -52,5 +54,5 @@ fun compareAge(age1: Int, age2: Int) {
 }
 
 fun subtract(a: Int, b: Int): Int {
-    return a * b
+    return a - b
 }

@@ -1,5 +1,5 @@
-import functions.lesson2
+import functions.lesson3
 
 fun main() {
-    lesson2()
+    lesson3()
 }
