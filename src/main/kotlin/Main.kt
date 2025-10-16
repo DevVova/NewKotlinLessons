@@ -1,5 +1,5 @@
-import functions.lesson3
+import functions.closure
 
 fun main() {
-    lesson3()
+    closure()
 }
