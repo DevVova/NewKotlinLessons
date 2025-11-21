@@ -1,4 +1,4 @@
-package metanit
+package metanit.base
 
 /*
 Для входа в программу используется функция main. У меня их несколько

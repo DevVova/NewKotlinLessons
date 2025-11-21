@@ -1,4 +1,4 @@
-package metanit
+package metanit.base
 
 /**
  * Конструкция when проверяет значение некоторого объекта и в зависимости от

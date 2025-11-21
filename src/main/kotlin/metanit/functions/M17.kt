@@ -1,4 +1,4 @@
-package metanit
+package metanit.functions
 
 /**
  * Однострочные функции (single expression function) используют сокращенный

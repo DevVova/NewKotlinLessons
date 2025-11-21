@@ -1,4 +1,4 @@
-package metanit
+package metanit.functions
 
 /**
  * Функция может возвращать некоторый результат. В этом случае после списка

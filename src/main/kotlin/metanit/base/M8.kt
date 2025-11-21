@@ -1,4 +1,4 @@
-package metanit
+package metanit.base
 
 /**
  * В этом разделе рассмотрены условные выражения.

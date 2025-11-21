@@ -1,4 +1,4 @@
-package metanit
+package metanit.functions
 
 /**
  * Перегрузка функций (function overloading) представляет определение нескольких

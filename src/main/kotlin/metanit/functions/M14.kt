@@ -1,4 +1,4 @@
-package metanit
+package metanit.functions
 
 /**
  * Одним из строительных блоков программы являются функции. Функция

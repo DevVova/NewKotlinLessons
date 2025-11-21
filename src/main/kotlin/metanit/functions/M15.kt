@@ -1,4 +1,4 @@
-package metanit
+package metanit.functions
 
 /**
  * Функция может принимать переменное количество параметров одного типа.
