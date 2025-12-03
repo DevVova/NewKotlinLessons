@@ -28,6 +28,15 @@ fun main() {
     val whereTrend = TrendDirection.valueOf("DOWN")
     println(whereTrend.name)
     whereTrend.printValue()
+    println()
+
+    val cube = Figure.CUBE
+    cube.getName()
+    println()
+
+    val time = DayTime.DAY
+    time.info()
+    println(time.startHour)
 }
 
 /**
@@ -58,4 +67,40 @@ fun selectActionWithTrend(trend: TrendDirection): String {
         TrendDirection.UP -> "Buy"
         TrendDirection.DOWN -> "Sell"
     }
+}
+
+enum class Figure(val nameI: String) {
+    CUBE("Cube"), TRIANGLE("Triangle");
+
+    fun getName() {
+        println("Name is $nameI.")
+    }
+}
+
+/**
+ * Константы перечисления могут определять анонимные классы, которые могут иметь собственные методы и
+ * свойства или реализовать абстрактные методы класса перечисления:
+ */
+enum class DayTime {
+    DAY {
+        override val startHour = 6
+        override val endHour = 16
+
+        override fun info() {
+            println("It is a day.")
+        }
+
+    },
+    NIGHT {
+        override val startHour = 17
+        override val endHour = 5
+
+        override fun info() {
+            println("It is a night.")
+        }
+
+    };
+    abstract val startHour: Int
+    abstract val endHour: Int
+    abstract fun info()
 }
